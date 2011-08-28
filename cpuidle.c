@@ -450,4 +450,7 @@ static int __init cpuidle_init(void)
 }
 
 module_param(off, int, 0444);
+/**
+ * start module
+ */
 core_initcall(cpuidle_init);
